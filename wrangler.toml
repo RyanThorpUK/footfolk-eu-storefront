@@ -1,2 +1,10 @@
-compatibility_date = "2024-01-11"
-vars = { VENDURE_API_URL="https://readonlydemo.vendure.io/shop-api" }
+name = "footfolk-eu-storefront"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+NODE_ENV = "production"
+VENDURE_API_URL="https://manager.footfolk.eu/shop-api"
+
+[observability.logs]
+enabled = true
