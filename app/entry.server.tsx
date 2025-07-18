@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom/server';
 import { createInstance } from 'i18next';
 import { getI18NextServer, getPlatformBackend } from './i18next.server';
 import { I18nextProvider, initReactI18next } from 'react-i18next';
+
 import i18n from './i18n';
 import {
   IS_CF_PAGES,
