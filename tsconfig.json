@@ -5,14 +5,17 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "target": "ES2022",
+    "target": "ESNext",
     "module": "ES2022",
     "strict": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
+    },
+    "ts-node": {
+      "esm": true
     },
     "noEmit": true,
     "forceConsistentCasingInFileNames": true,

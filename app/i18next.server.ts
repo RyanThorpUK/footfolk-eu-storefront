@@ -11,6 +11,7 @@ import resourcesToBackend from 'i18next-resources-to-backend';
 import { findLanguageJSON } from '~/languages.server';
 
 export async function getPlatformBackend() {
+
   if (IS_CF_PAGES) {
     return HttpBackend;
   } else {
